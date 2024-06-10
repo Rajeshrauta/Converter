@@ -21,7 +21,6 @@ namespace PdfToWordConverter.Controllers
                 return BadRequest("No file uploaded.");
 
             var originalFileName = Path.GetFileNameWithoutExtension(pdfFile.FileName);
-            // Set the new file name with .docx extension
             var newFileName = $"{originalFileName}.docx";
 
             using (var memoryStream = new MemoryStream())
