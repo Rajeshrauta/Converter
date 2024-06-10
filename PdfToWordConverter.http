@@ -1,0 +1,6 @@
+@PdfToWordConverter_HostAddress = http://localhost:5081
+
+GET {{PdfToWordConverter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
